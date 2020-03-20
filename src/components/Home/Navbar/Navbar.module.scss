@@ -1,0 +1,55 @@
+@import '../../../Shared/varbs.scss';
+
+.toolbarContainer {
+    max-width : 70%;
+    margin-top: 2rem;
+
+    @media screen and (max-width: $media-xl) {
+        max-width: 600px;
+    }
+
+    @media screen and (max-width: $media-sm) {
+        width: 100%;
+    }
+}
+
+.toolbarLinks {
+    display        : flex;
+    justify-content: space-around;
+    align-self     : center;
+    color          : #fff;
+    filter         : brightness(70%);
+    font-family    : 'Raleway', sans-serif;
+    font-weight    : bold;
+    font-size      : large;
+    order          : 1;
+
+    @media screen and (max-width: $media-sm) {
+        display: none;
+    }
+}
+
+.logoContainer {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    order          : 1;
+
+    @media screen and (max-width: $media-xl) {
+        padding-bottom: 0.7rem;
+        order         : -1;
+    }
+
+    @media screen and (max-width: $media-xs) {
+        padding-bottom: 0rem;
+    }
+}
+
+.imgLogo {
+    width: 200px;
+
+    @media screen and (max-width: $media-sm) {
+        width  : 150px;
+        z-index: 2;
+    }
+}

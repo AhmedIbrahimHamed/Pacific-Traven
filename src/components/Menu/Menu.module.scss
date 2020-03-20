@@ -1,0 +1,40 @@
+@import '../../Shared/varbs.scss';
+
+.menuContainer {
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.darkLogo {
+    width: 350px;
+
+    @media screen and (max-width: $media-sm) {
+        width  : 300px;
+    }
+}
+
+.menuSectionTitle {
+    color: rgba($color: $blackColor, $alpha: 0.7);
+    letter-spacing: .05rem;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.menuSectionItems {
+    margin-top: 28px;
+}
+
+.menuItem {
+    padding: .6rem;
+}
+
+.menuItemTitle {
+    color: rgba($color: $blackColor, $alpha: 0.5);
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.menuItemDescription {
+    color: rgba($color: $grayColor, $alpha: 0.8);
+}

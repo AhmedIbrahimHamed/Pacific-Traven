@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import Home from '../../components/Home/Home'
+import Resturant from '../../components/Resturant/Resturant'
+import Menu from '../../components/Menu/Menu'
 
 export class Main extends Component {
 
@@ -14,7 +17,9 @@ export class Main extends Component {
     render() {
         return (
             <div>
-                
+                <Home/>
+                <Resturant/>
+                <Menu/>
             </div>
         )
     }

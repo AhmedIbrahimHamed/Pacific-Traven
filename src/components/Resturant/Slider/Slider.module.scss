@@ -1,0 +1,9 @@
+@import '../../../Shared/varbs.scss';
+
+.sliderImg {
+    height: 100vh;
+
+    @media screen and (max-width: $media-lg) {
+        height: 100%;
+    }
+}
