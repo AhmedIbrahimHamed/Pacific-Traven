@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './Home.module.scss';
 import Navbar from './Navbar/Navbar';
 
-function Home() {
+function Home(props) {
     return (
         <div className={styles.homeContainer}>
-            <Navbar />
+            <Navbar toggleModal={props.toggleModal}/>
             <div className={styles.descriptionContainer}>
                 <p className={styles.catchPhrase}>BEST BURGER IN BROOKLYN</p>
                 <br />
