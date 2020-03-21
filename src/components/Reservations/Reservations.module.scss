@@ -1,0 +1,33 @@
+@import '../../Shared/varbs.scss';
+
+.reservationContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.reservationTitle {
+    color: rgba($color: $blackColor, $alpha: 0.92);
+    font-weight: bold;
+}
+
+.reservationOpenTableText {
+    font-size: 13px;
+}
+
+.reservationButton {
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: rgba($color: $blackColor, $alpha: 0.8);
+    color: rgba($color: $whiteColor, $alpha: 0.8);
+    
+}
+
+.reservationText {
+    color: rgba($color: $grayColor, $alpha: 0.8);
+}

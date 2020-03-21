@@ -289,8 +289,6 @@ function Menu() {
             {mains()}
 
         </Container>
-
-
     )
 }
 
