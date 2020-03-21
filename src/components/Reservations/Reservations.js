@@ -11,7 +11,7 @@ function Reservations() {
 
             <div>
 
-                <a target="_blank" href="https://www.opentable.com/restref/client/?rid=1000&restref=1000&corrid=d44d614f-73db-44b1-bd97-4321af92bb86">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.opentable.com/restref/client/?rid=1000&restref=1000&corrid=d44d614f-73db-44b1-bd97-4321af92bb86">
                     <Button className={styles.reservationButton}>Find a Table</Button>
                 </a>
             </div>
