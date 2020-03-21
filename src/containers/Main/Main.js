@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Home from '../../components/Home/Home'
 import Resturant from '../../components/Resturant/Resturant'
 import Menu from '../../components/Menu/Menu'
+import Drinks from '../../components/Drinks/Drinks'
 
 export class Main extends Component {
 
@@ -20,6 +21,7 @@ export class Main extends Component {
                 <Home/>
                 <Resturant/>
                 <Menu/>
+                <Drinks/>
             </div>
         )
     }

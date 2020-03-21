@@ -1,0 +1,48 @@
+@import '../../Shared/varbs.scss';
+
+.drinksContianer {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/12324630754_04f0a12dfc_mod.jpg) no-repeat top/cover;
+    width     : 100%;
+    min-height: 1100px;
+    box-sizing: border-box;
+    padding-bottom: 80px;
+}
+
+.cascadeLogo {
+    width     : 320px;
+    margin-top: 160px;
+
+    @media screen and (max-width: $media-sm) {
+        width     : 450px;
+        margin-top: 80px;
+    }
+}
+
+.barSection {
+    margin-top: 40px;
+
+    @media screen and (max-width: $media-sm) {
+        margin-top: 60px;
+    }
+}
+
+.barSectionTitle {
+    color         : rgba($color: $whiteColor, $alpha: 0.7);
+    letter-spacing: .05rem;
+    font-weight   : 400;
+    margin        : 24px 0px;
+}
+
+.barItem {
+    padding: 10px 0px;
+}
+
+.barItemTitle {
+    color      : rgba($color: $whiteColor, $alpha: 0.8);
+    font-size  : 18px;
+    font-weight: 700;
+}
+
+.barItemDescription {
+    color: rgba($color: $whiteColor, $alpha: 0.7);
+}

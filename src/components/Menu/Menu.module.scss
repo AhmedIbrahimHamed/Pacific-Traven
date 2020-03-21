@@ -1,23 +1,24 @@
 @import '../../Shared/varbs.scss';
 
 .menuContainer {
-    margin-top: 68px;
+    margin-top   : 68px;
     margin-bottom: 68px;
+    box-sizing: border-box;
 }
 
 .darkLogo {
     width: 350px;
 
     @media screen and (max-width: $media-sm) {
-        width  : 300px;
+        width: 300px;
     }
 }
 
 .menuSectionTitle {
-    color: rgba($color: $blackColor, $alpha: 0.7);
+    color         : rgba($color: $blackColor, $alpha: 0.7);
     letter-spacing: .05rem;
-    font-weight: 300;
-    margin-top: 50px;
+    font-weight   : 300;
+    margin-top    : 50px;
 }
 
 .menuSectionItems {
@@ -25,14 +26,13 @@
 }
 
 .menuItem {
-    padding: .6rem;
+    padding: 10px 16px;
 }
 
 .menuItemTitle {
-    color: rgba($color: $blackColor, $alpha: 0.5);
-    font-size: 17px;
+    color      : rgba($color: $blackColor, $alpha: 0.5);
+    font-size  : 17px;
     font-weight: bold;
-    margin: 0px;
 }
 
 .menuItemDescription {

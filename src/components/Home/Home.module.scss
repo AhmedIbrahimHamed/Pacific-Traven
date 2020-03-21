@@ -28,7 +28,7 @@
   font-size: 5rem;
   font-weight: bolder;
   line-height: 5rem;
-  color: white;
+  color: $whiteColor;
   @media screen and (max-width: $media-lg){
       max-width: 500px;
       font-size: 3rem;
@@ -39,5 +39,5 @@
 .catchPhrasePragraph{
   font-size: 1.2rem;
   font-weight: lighter;
-  color: white;
+  color: $whiteColor;
 }
