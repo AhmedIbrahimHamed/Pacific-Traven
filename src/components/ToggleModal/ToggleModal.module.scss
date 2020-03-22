@@ -2,10 +2,58 @@
 
 .toggleModalContainer {
     z-index   : 10;
-    background: $blackBG;
+    overflow-y: scroll;
+    background: $blackColor;
     position  : fixed;
     top       : 0;
     left      : 0;
     height    : 100%;
     width     : 100vw;
+}
+
+.closeBtn {
+    font-weight    : 900;
+    color          : $blackColor;
+    background     : white;
+    border-radius  : 50%;
+    position       : fixed;
+    top            : 25px;
+    left           : 24px;
+    width          : 2em;
+    height         : 2em;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    text-shadow    : none;
+    cursor         : pointer;
+}
+
+.imgLogoContainer {
+    display        : flex;
+    justify-content: center;
+    order          : 1;
+    margin-top     : 32px;
+}
+
+.imgLogo {
+    width: 150px;
+}
+
+.toggleLinksContainer {
+    display       : flex;
+    flex-direction: column;
+    margin-top    : 50px;
+    align-items   : center;
+    text-align    : center;
+}
+
+.toggleLink {
+    color     : $whiteColor;
+    margin-top: 20px;
+    width     : auto;
+}
+
+.toggleLinkText {
+    font-size: 1.5rem;
+    cursor   : pointer;
 }

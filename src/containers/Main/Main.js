@@ -15,22 +15,41 @@ export class Main extends Component {
 
         this.state = {
             isModalOpen: false,
+            windowWidth: undefined
         }
         this.toggleModal = this.toggleModal.bind(this);
+        this.handleResize = this.handleResize.bind(this);
     }
+
+    handleResize() {
+        this.setState({
+            windowWidth: window.innerWidth
+        })
+    }
+
+    componentDidMount() {
+        this.handleResize();
+        window.addEventListener('resize', this.handleResize)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.handleResize)
+      }
 
     toggleModal() {
         this.setState(prevState => ({
-          isModalOpen: !prevState.isModalOpen
+            isModalOpen: !prevState.isModalOpen
         }
         ));
-      }
+    }
+
+    const
 
     render() {
         return (
             <div>
                 <Element name="home" className="element">
-                    <Home toggleModal={this.toggleModal}/>
+                    <Home toggleModal={this.toggleModal} />
                 </Element>
 
                 <Element name="resturant" className="element">
@@ -51,7 +70,7 @@ export class Main extends Component {
 
                 <Footer />
 
-                <ToggleModal isModalOpen={this.state.isModalOpen} toggleModal={this.toggleModal}/>
+                <ToggleModal isModalOpen={this.state.isModalOpen} windowWidth={this.state.windowWidth} toggleModal={this.toggleModal} />
             </div>
         )
     }
