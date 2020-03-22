@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Pacific-Traven/precache-manifest.a15fe0e158687b96b1e99c460eb86519.js"
+  "/Pacific-Traven/precache-manifest.8a5cbf325d0d1c88a239c1f23bf9c887.js"
 );
 
 self.addEventListener('message', (event) => {
