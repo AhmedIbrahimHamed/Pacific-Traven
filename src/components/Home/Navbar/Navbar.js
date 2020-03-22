@@ -24,7 +24,7 @@ function Navbar(props) {
                 </Col>
 
                 <Col className={styles.logoContainer} xl="auto">
-                    <a href="http://localhost:3000/">
+                    <a href="https://ahmedibrahimhamed.github.io/Pacific-Traven/">
                         <img className={styles.imgLogo} src={siteLogo} alt="Pacific Traven Logo" />
                     </a>
                 </Col>

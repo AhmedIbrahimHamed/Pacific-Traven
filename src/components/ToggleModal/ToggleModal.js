@@ -11,7 +11,7 @@ function ToggleModal(props) {
                 <div className={styles.closeBtn} onClick={props.toggleModal}>X</div>
                 <Container>
                     <Row className={styles.imgLogoContainer}>
-                        <a href="http://localhost:3000/">
+                        <a href="https://ahmedibrahimhamed.github.io/Pacific-Traven/">
                             <img className={styles.imgLogo} src={siteLogo} alt="Pacific Traven Logo" />
                         </a>
                     </Row>
