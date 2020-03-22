@@ -7,11 +7,11 @@ function Footer() {
     return (
         <section>
             <nav className={styles.preFooterContainer}>
-                <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook.com/login" target="_blank" rel="noopener noreferrer">
                     <Button className={styles.footerBtn}><span className="fa fa-facebook"></span></Button>
                 </a>
 
-                <a href="https://facebook.com/login" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/login" target="_blank" rel="noopener noreferrer">
                     <Button className={styles.footerBtn}><span className="fa fa-twitter"></span></Button>
                 </a>
 
