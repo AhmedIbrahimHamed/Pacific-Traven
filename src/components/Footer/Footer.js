@@ -15,7 +15,7 @@ function Footer() {
                     <Button className={styles.footerBtn}><span className="fa fa-twitter"></span></Button>
                 </a>
 
-                <a href="https://instgram.com/login" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                     <Button className={styles.footerBtn}><span className="fa fa-instagram"></span></Button>
                 </a>
             </nav>
