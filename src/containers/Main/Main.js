@@ -15,7 +15,8 @@ export class Main extends Component {
 
         this.state = {
             isModalOpen: false,
-            windowWidth: undefined
+            windowWidth: undefined,
+            windowHeight: undefined
         }
         this.toggleModal = this.toggleModal.bind(this);
         this.handleResize = this.handleResize.bind(this);
@@ -23,7 +24,8 @@ export class Main extends Component {
 
     handleResize() {
         this.setState({
-            windowWidth: window.innerWidth
+            windowWidth: window.innerWidth,
+            windowHeight: window.innerHeight
         })
     }
 
