@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82998b6ae94dc40449acab37df95a7b2",
+    "revision": "5cd8743ce756730213fa054ba307e3d3",
     "url": "/Pacific-Traven/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pacific-Traven/static/css/2.7c96d096.chunk.css"
   },
   {
-    "revision": "6999f59f2afcd83acea8",
+    "revision": "8a60710e2990a58ba6ae",
     "url": "/Pacific-Traven/static/css/main.9455546a.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pacific-Traven/static/js/2.b07e012a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6999f59f2afcd83acea8",
-    "url": "/Pacific-Traven/static/js/main.53303084.chunk.js"
+    "revision": "8a60710e2990a58ba6ae",
+    "url": "/Pacific-Traven/static/js/main.ee7699e0.chunk.js"
   },
   {
     "revision": "a65591f2d6c757461c38",
