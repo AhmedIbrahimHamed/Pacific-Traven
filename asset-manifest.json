@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pacific-Traven/static/css/main.9455546a.chunk.css",
+    "main.css": "/Pacific-Traven/static/css/main.bffbc00f.chunk.css",
     "main.js": "/Pacific-Traven/static/js/main.07c243b4.chunk.js",
     "main.js.map": "/Pacific-Traven/static/js/main.07c243b4.chunk.js.map",
     "runtime-main.js": "/Pacific-Traven/static/js/runtime-main.6a3bde1f.js",
@@ -9,10 +9,10 @@
     "static/js/2.b07e012a.chunk.js": "/Pacific-Traven/static/js/2.b07e012a.chunk.js",
     "static/js/2.b07e012a.chunk.js.map": "/Pacific-Traven/static/js/2.b07e012a.chunk.js.map",
     "index.html": "/Pacific-Traven/index.html",
-    "precache-manifest.8a5cbf325d0d1c88a239c1f23bf9c887.js": "/Pacific-Traven/precache-manifest.8a5cbf325d0d1c88a239c1f23bf9c887.js",
+    "precache-manifest.6b76311fb3c0bed193a3d29c29b1ff07.js": "/Pacific-Traven/precache-manifest.6b76311fb3c0bed193a3d29c29b1ff07.js",
     "service-worker.js": "/Pacific-Traven/service-worker.js",
     "static/css/2.7c96d096.chunk.css.map": "/Pacific-Traven/static/css/2.7c96d096.chunk.css.map",
-    "static/css/main.9455546a.chunk.css.map": "/Pacific-Traven/static/css/main.9455546a.chunk.css.map",
+    "static/css/main.bffbc00f.chunk.css.map": "/Pacific-Traven/static/css/main.bffbc00f.chunk.css.map",
     "static/js/2.b07e012a.chunk.js.LICENSE.txt": "/Pacific-Traven/static/js/2.b07e012a.chunk.js.LICENSE.txt",
     "static/media/10748178545_3e1e4056b9_k.jpg": "/Pacific-Traven/static/media/10748178545_3e1e4056b9_k.f539f7f8.jpg",
     "static/media/10748270326_e94eeb2435_k.jpg": "/Pacific-Traven/static/media/10748270326_e94eeb2435_k.0cabb2f9.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.6a3bde1f.js",
     "static/css/2.7c96d096.chunk.css",
     "static/js/2.b07e012a.chunk.js",
-    "static/css/main.9455546a.chunk.css",
+    "static/css/main.bffbc00f.chunk.css",
     "static/js/main.07c243b4.chunk.js"
   ]
 }
