@@ -2,7 +2,7 @@
   "name": "react-training",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AhmedIbrahimHamed.github.io/Pacific-Traven",
+  "homepage": "http://AhmedIbrahimHamed.github.io/Pacific-Traven",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

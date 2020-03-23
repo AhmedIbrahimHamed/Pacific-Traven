@@ -40,4 +40,9 @@
   font-size: 1.2rem;
   font-weight: lighter;
   color: $whiteColor;
+  @media screen and (max-width: $media-xs){
+    max-width: 300px;
+    align-self: center;
+    
+}
 }

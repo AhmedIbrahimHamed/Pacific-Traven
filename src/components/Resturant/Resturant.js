@@ -26,7 +26,7 @@ function Resturant() {
                         to observe passers-by in the glass-encased Cascade Bar on the 2nd floor, or watch the art of cooking as it occurs in the open-kitchen dining room.</p>
                     </Col>
 
-                    <Col md={{ size: 3, offset: 1 }} xs={{ size: 12, offset: 0, mt: 5 }}>
+                    <Col className={styles.contactResturantText} md={{ size: 3, offset: 1 }} xs={{ size: 12, offset: 0 }}>
                         <div>
                             <p className={styles.grayText}>PHONE</p>
                             <p className={`${styles.grayText} mt-2`}>(347) 555-1234</p>
